@@ -1,0 +1,14 @@
+{
+    "name": "hyte_server",
+    "version": "1.0.0",
+    "description": "Palvelin web-sovellukseen",
+    "license": "ISC",
+    "author": "alisakul",
+    "type": "module",
+    "main": "source/index.js",
+    "scripts": {
+        "start": "node source/index.js",
+        "dev": "nodemon source/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
